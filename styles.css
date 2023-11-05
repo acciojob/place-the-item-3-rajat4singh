@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+*{
+	box-sizing: border-box;
+	font-size: 45px;
+	
+	
+}
+.holder{
+display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap:wrap;
+	
+}
+.green{
+	height:100px;
+	width: 100px;
+	background-color: green;
+}
+.red{
+	height:100px;
+	width: 100px;
+	background-color: red;
+}
+.blue{
+	height:100px;
+	width: 100px;
+	background-color: blue;
+}
